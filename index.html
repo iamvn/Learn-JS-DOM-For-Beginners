@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="index.js"></script>
+    <!-- <h2 class="heading">Question 1</h2> -->
+<div class="main-contanier"> 
+    <div class="box">
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Index</th>
+                        <th>Name</th>
+                        <th>Contact Name</th>
+                      </tr>
+                </thead>
+                        <tbody>
+                            <tr><td rowspan="2">Phone</td>
+                                <td>Vinay</td>
+                                <td>123456789</td>
+                            </tr>
+                            <tr>
+                                <td>Sahil</td>
+                                <td>123456789</td>
+                            </tr>
+                        </tbody>
+              </table>  
+        </div>
+          <button type="button" onclick="changePtagBgColor()">Change P tag color</button>
+          <button type="button" onclick="getAgesAbove18()">Print above 18 ages value</button>
+          <button type="button" onclick="createAForm()">Create a dynamic form with default value with JS</button>
+          <button type="button" onclick="addTwo(2,5)">Print Addition of two number on console (Check console)</button>
+          <button type="button" onclick="printUsingForLoop()">Print 1 to 10 using for loop on console (Check console)</button>
+    </div>
+    
+    <div class="box">
+        <label> Print Hello world form js</label>
+        <button type="button" onclick="printHelloWorld()">Print </button>
+        <p></p>
+        <label> Print current Date</label>
+        <button type="button" onclick="getCurrentDate()">Print</button>
+        <p id="showDate"></p>
+    </div>
+
+    <div class="box">
+        <label>Convert Array to String</label>
+        <button type="button" onclick="toConvertArrayToJson()">Print</button>
+        <p>
+            <span id="arrayToSting"></span>
+        </p>
+        <label>Print count 1 to 10 with while loop</label>
+        <button type="button" onclick="loadList()">Print</button>
+        <p>
+            <span id="loopQuestion"></span>
+        </p>
+    </div>
+    <div class="box dynamic-sec-age d-none">
+        <h2>Age above 18</h2>
+        <div class="dynamicFieldAge"></div>
+    </div>
+    <div class="box">
+        <form>
+            <label>Name</label>
+            <input id="name" placeholder="Enter name" type="text"/>
+            <label>Last Name</label>
+            <input  id="lastName" placeholder="Enter last name" type="text"/>
+            <button type="button" onclick="handleFormSubmission()">Submit</button>
+        </form>
+
+        <div class="displayUserName">
+            <label>Address Bar</label>
+            <input id="showEntredName" type="text" disabled/>
+        </div>
+    </div>
+    <div class="box dynamic-sec d-none">
+        <h2>Dynamic form field</h2>
+        <div class="dynamicField"></div>
+    </div>
+</div>
+</body>
+</html>

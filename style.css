@@ -1,0 +1,139 @@
+body
+{
+    background-image: url("./assets/images/bg.jpg");
+    height: calc(100vh - 40%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  thead
+  {
+    background: #ffffff;
+    color: rgba(0, 0, 0, 0.521);
+    text-align: left;
+    padding: 8px;
+  }
+  th{
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #dddddd;
+  }
+  td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    color: #ffffff;
+  }
+  
+  .main-contanier
+  {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+  }
+
+  .box
+  {
+    margin: 5px;
+    width: 29.4%;
+    padding: 20px;
+    border-radius: 5px;
+    background: rgba(238, 130, 238, 0.205);
+  }
+
+  @media only screen and (max-width: 760px) {
+    .box {
+        width: 60.4%;
+    }
+  }
+
+  .heading
+  {
+    background: #ffffff;
+    border-radius: 5px;
+    padding: 5px;
+    color: rgba(0, 0, 0, 0.521);
+  }
+
+  p{
+    background: #ffffff;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    min-height: 17px;
+  }
+
+  label{
+    color: #ffffff;
+    padding: 5px;
+    font-size: 20px;
+  }
+
+  li{
+    list-style: none;
+  }
+
+  form label
+  {
+    color: black;
+  }
+
+  form
+  {
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .displayUserName{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px;
+
+  }
+
+  .displayUserName input
+  {
+    padding: 5px;
+  }
+
+  .dynamicField
+  {
+
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  button
+  {
+    margin: 10px 0;
+    background: rgba(0, 128, 0, 0.534);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+  .d-none
+  {
+    display:none;
+  }
+
+  h2
+  {
+    color: #ffffff;
+  }
